@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="http://fonts.cdnfonts.com/css/segoe-ui-4" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/mobile.css" />
+    <title>Css Grid</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <nav id="navigation">
+      <div class="container">
+        <div class="logo"><img src="images/RE1Mu3b.png" alt="microsoft" /></div>
+        <div class="menu">
+          <ul>
+            <li><a href="#">Microsoft 365</a></li>
+            <li><a href="#">Office</a></li>
+            <li><a href="#">Windows</a></li>
+            <li><a href="#" class="disapear">Surface</a></li>
+            <li class="disapear"><a href="#">Xbox</a></li>
+            <li>
+              <a href="#"><span>Offre spéciales</span></a>
+            </li>
+            <li>
+              <a href="#"><span>Support technique</span></a>
+            </li>
+          </ul>
+        </div>
+        <div class="last-menu">
+          <ul>
+            <li>
+              <a href="#" class="dropdown-icon disapear"
+                >Tout Microsoft <i class="fas fa-chevron-down"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#" class="search-icon"
+                ><span>Recherche </span><i class="fas fa-search"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#" class="cart-icon"
+                ><span>Panier </span><i class="fas fa-shopping-cart"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#" class="login-icon"
+                ><span>Se connecter </span><i class="far fa-user"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header Mobile invisible jusqu'a 530px-->
+    <nav class="navigation-mobile">
+      <div class="icon-mobile">
+        <ul>
+          <li>
+            <a href="#"><i class="fas fa-bars"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fas fa-search"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="image-center">
+        <img src="images/RE1Mu3b.png" alt="microsoft" />
+      </div>
+      <div class="icon-mobile-right">
+        <ul>
+          <li>
+            <a href="#"><i class="fas fa-shopping-cart"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="far fa-user"></i></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Main -->
+    <section class="main">
+      <div class="main-container">
+        <div class="main-img">
+          <img src="images/RWxPn7.jpg" alt="laptop" />
+        </div>
+        <div class="main-text">
+          <div class="text-center">
+            <h2>Économisez jusqu'à plus de 500 € sur Surface</h2>
+            <p>
+              Obtenez 20% de réduction et plus sur la famille Surface : Surface
+              Pro 7, Surface Laptop Go, Surface Laptop 3, Surface Book 3 et
+              Surface Pro X.
+            </p>
+            <a href="#"
+              >Découvrir toutes les offres <i class="fas fa-chevron-right"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Header Mobile invisible jusqu'a 530px-->
+    <section class="main-mobile">
+      <div class="image-mobile"></div>
+      <div class="banner-mobile">
+        <div class="mobile-center">
+          <h3>Ne ratez jamais un son</h3>
+          <p>
+            Découvrez le dernier produit audio Surface, avec un design
+            ultra-confortable, un son immersif et une autonomie de batterie pour
+            toute la journée
+          </p>
+          <div class="button-center">
+            <a href="#"
+              >Acheter les Surface Earbuds <i class="fas fa-chevron-right"></i
+            ></a>
+            <br />
+            <a href="#"
+              >Acheter le Surface Headphones 2
+              <i class="fas fa-chevron-right"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Icon -->
+    <section class="icon">
+      <div class="icon-container">
+        <div>
+          <img src="images/RE4sQDc.png" alt="microsoft" />
+          <p>Choisissez votre Microsoft 365</p>
+        </div>
+        <div>
+          <img src="images/RE4pndL.png" alt="microsoft" />
+          <p>Acheter des appareils Surface</p>
+        </div>
+        <div>
+          <img src="images/RE4pxBu.png" alt="microsoft" />
+          <p>Acheter des jeux et consoles Xbox</p>
+        </div>
+        <div>
+          <img src="images/RE4pkvE.png" alt="microsoft" />
+          <p>Acheter Windows 10</p>
+        </div>
+        <div>
+          <img src="images/RE4rriw.png" alt="microsoft" />
+          <p>Appareils et logiciels professionnels</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Card -->
+    <section class="card">
+      <div>
+        <img src="images/RWDhA6.jpeg" alt="teams" />
+        <h3>Microsoft Teams</h3>
+        <p>
+          Discutez, appelez-vous et faites des projets avec votre famille et vos
+          amis, le tout dans la même application.
+        </p>
+        <a href="#">En savoir plus <i class="fas fa-chevron-right"></i></a>
+      </div>
+      <div>
+        <img src="images/RE4E4rR.jpeg" alt="teams" />
+        <h3>Microsoft 365</h3>
+        <p>
+          Des applications Office premium, un stockage en ligne supplémentaire,
+          une sécurité renforcée, et plus encore, le tout en un seul abonnement
+          pratique.
+        </p>
+        <a href="#"
+          >Jusqu’à 6 utilisateurs <i class="fas fa-chevron-right"></i
+        ></a>
+        <a href="#">Pour 1 utilisateur <i class="fas fa-chevron-right"></i></a>
+      </div>
+      <div>
+        <img src="images/RE4GMgj.jpeg" alt="teams" />
+        <h3>Xbox Series S</h3>
+        <p>
+          Des performances de nouvelle génération dans la plus petite Xbox
+          jamais conçue.
+        </p>
+        <a href="#">Acheter maintenant <i class="fas fa-chevron-right"></i></a>
+      </div>
+      <div>
+        <img src="images/RE4CxBa.png" alt="teams" />
+        <h3>Pack spécial Surface Go 2</h3>
+        <p>
+          Profitez de plus de 130 € d'économies et optez pour le meilleur
+          rapport qualité/prix avec le pack Surface Go 2 et ses accessoires
+          indispensables.
+        </p>
+        <a href="#">En profiter <i class="fas fa-chevron-right"></i></a>
+      </div>
+    </section>
+
+    <!--Banner
+    <section class="banner">
+      <picture>
+        <img src="images/RE4D5uF.png" alt="img" />
+      </picture>
+      <div class="banner-text">
+        <h3>Ne ratez jamais un son</h3>
+        <p>
+          Découvrez le dernier produit audio Surface, avec un design
+          ultra-confortable, un son immersif et une autonomie de batterie pour
+          toute la journée
+        </p>
+        <a href="#"
+          >Acheter les Surface Earbuds <i class="fas fa-chevron-right"></i
+        ></a>
+        <br />
+        <a href="#"
+          >Acheter le Surface Headphones 2 <i class="fas fa-chevron-right"></i
+        ></a>
+      </div>
+    </section>-->
+
+    <section class="banner">
+      <!-- Bannier texte invisible -->
+      <div class="banner-text">
+        <h3>Ne ratez jamais un son</h3>
+        <p>
+          Découvrez le dernier produit audio Surface, avec un design
+          ultra-confortable, un son immersif et une autonomie de batterie pour
+          toute la journée
+        </p>
+        <a href="#"
+          >Acheter les Surface Earbuds <i class="fas fa-chevron-right"></i
+        ></a>
+        <br />
+        <a href="#"
+          >Acheter le Surface Headphones 2 <i class="fas fa-chevron-right"></i
+        ></a>
+      </div>
+    </section>
+    <!-- Bannier texte mobile -->
+    <div class="banner-mobile">
+      <div class="mobile-center">
+        <h3>Ne ratez jamais un son</h3>
+        <p>
+          Découvrez le dernier produit audio Surface, avec un design
+          ultra-confortable, un son immersif et une autonomie de batterie pour
+          toute la journée
+        </p>
+        <div class="button-center">
+          <a href="#"
+            >Acheter les Surface Earbuds <i class="fas fa-chevron-right"></i
+          ></a>
+          <br />
+          <a href="#"
+            >Acheter le Surface Headphones 2 <i class="fas fa-chevron-right"></i
+          ></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card -->
+    <section class="card-two">
+      <h3>Pour les entreprises</h3>
+      <div class="card-box">
+        <div>
+          <img src="images/RE4ztzT.jpg" alt="teams" />
+          <h3>Offre spéciale Surface Book 3</h3>
+          <p>
+            Économisez jusqu’à 623 € sur Surface Book 3 équipée de Windows 10
+            Professionnel et d'une garantie additionnelle en cas de panne ou de
+            casse.
+          </p>
+          <a href="#"
+            >Acheter maintenant <i class="fas fa-chevron-right"></i
+          ></a>
+        </div>
+        <div>
+          <img src="images/RE4E4rT.jpeg" alt="teams" />
+          <h3>Microsoft 365 pour les entreprises</h3>
+          <p>
+            Gardez une longueur d’avance avec des applications de qualité pour
+            optimiser la productivité, la connexion et la sécurité.
+          </p>
+          <a href="#"
+            >Acheter maintenant <i class="fas fa-chevron-right"></i
+          ></a>
+        </div>
+        <div>
+          <img src="images/RE1CmIw.jpeg" alt="teams" />
+          <h3>Windows 10 Entreprise</h3>
+          <p>
+            Téléchargez l'évaluation gratuite de 90 jours pour les
+            professionnels de l'informatique.
+          </p>
+          <a href="#"
+            >Télécharger maintenant <i class="fas fa-chevron-right"></i
+          ></a>
+        </div>
+        <div>
+          <img src="images/RWBmSK.jpeg" alt="teams" />
+          <h3>Appareils HoloLens 2</h3>
+          <p>Développez une nouvelle réalité pour votre entreprise.</p>
+          <a href="#"
+            >Acheter maintenant <i class="fas fa-chevron-right"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+
+    <!--Banner-->
+    <section class="banner-two">
+      <div class="banner-text">
+        <h3>Microsoft Ambitions</h3>
+        <p>
+          "Pour préserver l'environnement, j'ai développé mes compétences
+          numériques"
+        </p>
+        <a href="#"
+          >Acheter les Surface Earbuds <i class="fas fa-chevron-right"></i
+        ></a>
+      </div>
+    </section>
+    <!-- Bannier texte mobile -->
+    <div class="banner-mobile">
+      <div class="mobile-center-two">
+        <h3>Microsoft Ambitions</h3>
+        <p>
+          "Pour préserver l'environnement, j'ai développé mes compétences
+          numériques"
+        </p>
+        <div class="button-center-two">
+          <a href="#"
+            >Acheter les Surface Earbuds <i class="fas fa-chevron-right"></i
+          ></a>
+        </div>
+      </div>
+    </div>
+
+    <section class="social-media">
+      <div class="flex-social">
+        <a href="#">Suivre Microsoft</a>
+        <img src="images/facebook.svg" alt="fb" />
+        <img src="images/twitter.svg" alt="tt" />
+        <img src="images/youtube.svg" alt="yt" />
+      </div>
+      <p>Accessibilité: partiellement conforme</p>
+    </section>
+
+    <footer>
+      <div class="footer-center">
+        <div>
+          <h3>Nouveautés</h3>
+          <ul>
+            <li><a href="#">Surface Laptop 4</a></li>
+            <li><a href="#">Surface Duo </a></li>
+            <li><a href="#">Surface Laptop Go</a></li>
+            <li><a href="#">Surface Go 2</a></li>
+            <li><a href="#">Surface Pro X</a></li>
+            <li><a href="#">Microsoft 365</a></li>
+            <li><a href="#">Applications Windows 10</a></li>
+            <li><a href="#">HoloLens 2</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Microsoft Store</h3>
+          <ul>
+            <li><a href="#">Garanties</a></li>
+            <li><a href="#">Profil du compte </a></li>
+            <li><a href="#">Centre de téléchargement</a></li>
+            <li><a href="#">Support du Microsoft Store</a></li>
+            <li><a href="#">Retours</a></li>
+            <li><a href="#">Suivi des commandes</a></li>
+            <li><a href="#">Recycler</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Éducation</h3>
+          <ul>
+            <li>
+              <a href="#"> Office pour étudiants </a>
+            </li>
+            <li><a href="#">Microsoft pour l'éducation</a></li>
+            <li><a href="#">Office 365 pour les écoles</a></li>
+            <li><a href="#">Offres pour étudiants & parents </a></li>
+            <li><a href="#">Microsoft Azure pour l'éducation</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Entreprise</h3>
+          <ul>
+            <li><a href="#">Azure</a></li>
+            <li><a href="#">AppSource</a></li>
+            <li><a href="#">Automobile</a></li>
+            <li><a href="#">Fonction publique</a></li>
+            <li><a href="#">Santé</a></li>
+            <li><a href="#">Industrie</a></li>
+            <li><a href="#">Banque Assurance</a></li>
+            <li><a href="#">Distribution</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Développeur</h3>
+          <ul>
+            <li><a href="#">Microsoft Visual Studio </a></li>
+            <li><a href="#"> Centre de développement Windows </a></li>
+            <li><a href="#">Centre pour les développeurs</a></li>
+            <li><a href="#">Programme pour développeur</a></li>
+            <li><a href="#">Microsoft Channel 9</a></li>
+            <li><a href="#">Centre des développeurs Office</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Société</h3>
+          <ul>
+            <li><a href="#">Emploi </a></li>
+            <li><a href="#">Actualités de la société</a></li>
+            <li><a href="#">Confidentialité chez Microsoft</a></li>
+            <li><a href="#">Investisseurs</a></li>
+            <li><a href="#">Sécurité</a></li>
+          </ul>
+        </div>
+        <div class="grid-item">
+          <ul>
+            <li>
+              <a href="#">Contacter Microsoft </a>
+            </li>
+            <li><a href="#">Confidentialité</a></li>
+            <li><a href="#">Gérer les cookies</a></li>
+            <li><a href="#">Conditions d'utilisation</a></li>
+            <li><a href="#">Marques</a></li>
+            <li><a href="#">À propos de nos annonces</a></li>
+            <li><a href="#">EU Compliance DoCs</a></li>
+            <li><a href="#">Accessibilité</a></li>
+            <li><a href="#">©&nbsp;Microsoft 2021</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
